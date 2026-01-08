@@ -5,6 +5,14 @@
             "namespace": "android_app",
             "package_name": "com.microlise.vehicle.install",
             "sha256_cert_fingerprints": ["E0:03:B9:AE:4B:70:D2:3B:D2:FF:36:50:CA:BF:49:58:9E:B7:0B:F5:99:C8:9C:D6:ED:9E:A6:DE:83:B9:6C:6F"]
+        },
+        "relation_extensions": {
+            "delegate_permission/common.handle_all_urls": {
+                "dynamic_app_link_components": {
+                    {"/": "/installation/WOT/*"},
+                    {"/": "*", "exclude": true}
+                }
+            }
         }
     }
 ]
